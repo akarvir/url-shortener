@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+*.env
+.env.*
+
+# Build / packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+# Dependencies
+frontend/node_modules/
+node_modules/
+
+# Build output
+frontend/build/
+build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Docker
+*.pid
+*.seed
+*.pid.lock
+.dockerignore
+docker-compose.override.yml
